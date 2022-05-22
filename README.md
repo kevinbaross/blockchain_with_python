@@ -37,12 +37,6 @@ Then, clone the repository onto your local computer.
 
 For Mac user, open terminal then navigate to your folder.
 
-First, don't forget to activate your dev environment with the following command.
-
-```python
-conda activate dev
-```
-
 Then open the program with the following command.
 
 ```python
@@ -51,13 +45,15 @@ streamlit run pychain.py
 
 The following screen will load up.
 
-Screenshot
+![ScreenShot1](scr18.1.png)
   
 Next, you can keep adding transaction information by adding sender, receiver, and amount information, and click "Add Block"
 The ledger on the bottom of the screen will be updated each time you enter the new block.
 
-Screenshot
-   
+![ScreenShot2](scr18.2.png)
+
+![ScreenShot3](scr18.3.png)
+
 You can also choose the difficulty level on the left side of the screen, and validate the chain (at the bottom of the screen) to ensure data integrity.
 
 
